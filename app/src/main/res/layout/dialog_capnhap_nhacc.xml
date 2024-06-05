@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tkkhungdn"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cập nhập thông tin nhà cung cấp"
+            android:textSize="25dp"
+            android:textColor="#EF1616" />
+
+        <EditText
+            android:id="@+id/edttennhacc"
+
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Tên nhà cung cấp"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/tkkhungdn" />
+
+        <EditText
+            android:id="@+id/edtemailnhacc"
+
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Email nhà cung cấp"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/tkkhungdn" />
+
+        <EditText
+            android:id="@+id/edtsdtnhacc"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="SĐT nhà cung cấp"
+            android:inputType="number"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/tkkhungdn" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btncn_nhcc"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#2196F3"
+                android:text="Cập nhập" />
+
+            <Button
+                android:id="@+id/btnhuy_nhacc"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:backgroundTint="#F44336"
+
+                android:text="Hủy" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

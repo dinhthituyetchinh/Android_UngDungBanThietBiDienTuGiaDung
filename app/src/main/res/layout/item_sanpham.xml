@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="190dp"
+    android:layout_height="150dp"
+    android:id="@+id/imgsanpham"
+
+    android:src="@mipmap/img_elmich_elya"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nồi"
+        android:textSize="20dp"
+        android:id="@+id/txtten"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Giá:990000đ"
+        android:textColor="#ED2222"
+        android:id="@+id/txtgia"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="philips"
+        android:id="@+id/txtloai"/>
+</LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

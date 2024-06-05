@@ -1,0 +1,293 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#2196F3">
+
+            <ImageView
+                android:id="@+id/a"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/icon_person" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_toEndOf="@+id/a"
+                android:text="minhtuan"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="5dp">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:iss_auto_cycle="true"
+                app:iss_delay="2000"
+                app:iss_period="2000" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiện ích của tôi"
+            android:layout_margin="10dp"
+
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Xem tiếp sản phẩm"
+            android:drawableLeft="@drawable/icon_product"
+
+            android:padding="10dp"
+
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:id="@+id/item"
+
+            android:layout_below="@+id/cardView"
+            android:background="#00000000"
+
+            android:orientation="horizontal"
+
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="#0C424242"
+                app:cardCornerRadius="20dp"
+                android:background="@drawable/tk_khung"
+                app:cardElevation="2dp"
+                >
+                <ImageButton
+                    android:id="@+id/ibt_maylanh"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_maylanh" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="#0C424242"
+                app:cardCornerRadius="20dp"
+                android:background="@drawable/tk_khung"
+                app:cardElevation="2dp"
+                >
+                <ImageButton
+                    android:id="@+id/ibt_maygiat"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_maygiat" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="#0C424242"
+                app:cardCornerRadius="20dp"
+                android:background="@drawable/tk_khung"
+                app:cardElevation="2dp"
+                >
+                <ImageButton
+                    android:id="@+id/ibt_mayxay"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_mayxay" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="#0C424242"
+                app:cardCornerRadius="20dp"
+                android:background="@drawable/tk_khung"
+                app:cardElevation="2dp"
+                >
+                <ImageButton
+                    android:id="@+id/ibt_noicom"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_noicom" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardBackgroundColor="#0C424242"
+                app:cardCornerRadius="20dp"
+                android:background="@drawable/tk_khung"
+                app:cardElevation="2dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/ibt_tulanh"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ic_tulanh" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutdonmua_ftt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#19000000"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="  Đơn mua "
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icon_bill" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_right"
+                android:layout_gravity="end|center"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_tt_ftt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#19000000"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="  Thông tin tài khoản "
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icon_thongtin" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_right"
+                android:layout_gravity="end|center"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_gh_ftt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#19000000"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="  Giỏ hàng của bạn  "
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icon_shopapp"/>
+" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_right"
+                android:layout_gravity="end|center"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#86D54F4F"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtdx_ftt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="  Đăng xuất tài khoản "
+                android:textSize="18sp"
+
+                android:drawableLeft="@drawable/icon_exit" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

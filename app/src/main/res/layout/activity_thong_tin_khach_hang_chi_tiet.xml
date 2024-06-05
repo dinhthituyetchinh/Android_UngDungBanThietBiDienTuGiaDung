@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThongTinKhachHangChiTiet"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/layout1"
+        android:background="#2196F3">
+
+        <ImageButton
+            android:id="@+id/imgback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:layout_gravity="center|left"
+            android:layout_margin="10dp"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:id="@+id/txtnav"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Thông tin của bạn"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#2196F3">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/icon_person"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#2A000000"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Tên:      "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtten_ttctkh"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Lê Minh Tuấn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#2A000000"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="SĐT:     "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtsdt_ttctkh"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="number"
+            android:text="Lê Minh Tuấn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#2A000000"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Địa chỉ: "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtdc_ttctkh"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Lê Minh Tuấn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#2A000000"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Mã TK:  "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/edtusername_ttctkh"
+            android:paddingLeft="10dp"
+            android:gravity="center|left"
+            android:textSize="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Lê Minh Tuấn" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutpass_ttkh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#2A000000"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Passwork:  "
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtpass_ttctkh"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Lê Minh Tuấn" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_cn_ttctkh"
+        android:layout_gravity="center|bottom"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_height="wrap_content"
+        android:text="Cập nhập" />
+
+
+</LinearLayout>

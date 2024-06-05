@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/hometrangchu"
+    android:title="Trang chủ"
+    android:icon="@drawable/icon_home"/>
+    <item
+        android:id="@+id/QLsanpham"
+        android:title="Quản lý sản phẩm"
+        android:icon="@drawable/icon_product" />
+    <item
+        android:id="@+id/QLkhachhang"
+        android:title="Quản lý khách hàng"
+        android:icon="@drawable/icon_person" />
+    <item
+        android:id="@+id/QLnhacc"
+        android:title="Quản lý nhà cung cấp"
+        android:icon="@drawable/icon_nhacc" />
+    <item
+        android:id="@+id/QLhoadon"
+        android:title="Quản lý hóa đơn"
+        android:icon="@drawable/icon_bill" />
+
+
+
+
+    <item android:title="Người dùng">
+
+        <menu>
+            <item
+                android:id="@+id/mDoimk"
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/icon_setting" />
+
+            <item
+                android:id="@+id/mThoat"
+                android:title="Thoát"
+                android:icon="@drawable/icon_exit" />
+
+
+        </menu>
+
+
+    </item>
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/txtuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  minhtuan"
+            android:textSize="23dp"
+            android:paddingLeft="15dp"
+
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:drawableLeft="@drawable/icon_person"
+
+            android:background="#2196F3"
+            android:textColor="#E8E3E3"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp">
+    <TextView
+        android:id="@+id/txtten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lê Minh Tuấn"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/txtsdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0384396100"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        />
+</LinearLayout>
+
+<TextView
+    android:id="@+id/txtxoa"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="30dp"
+    android:layout_marginBottom="10dp"
+    android:layout_gravity="end"
+    android:textColor="#EA1313"
+    android:textSize="18dp"
+    android:text="xóa"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
